@@ -1,0 +1,12 @@
+.hero {
+    background-image: url('../../../../public/background\ image.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.hireme {
+    background: transparent linear-gradient(180deg, #5158DE 0%, #613ADE 49%, #711ADE 100%) 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+}
