@@ -1,9 +1,8 @@
 import React from 'react'
-import styles from './Footer.module.css';
 
 const Footer: React.FC = () => {
     return (
-        <footer className={`text-white py-6 ${styles.footer}`}>
+        <footer className="text-white py-6 bg-gray-900">
             <div className="container mx-auto flex flex-col items-center space-y-4 md:space-y-0 md:flex-row md:justify-between">
                 <div className="text-center md:text-left">
                     <p>Designed and Developed by Diganta Halder</p>
