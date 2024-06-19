@@ -13,7 +13,9 @@ const Navbar: React.FC = () => {
         <nav className={`text-white p-4 ${styles.navbar}`}>
             <div className="container mx-auto flex justify-between items-center">
                 <div className="text-2xl font-bold">
-                    <img src='/logo.png' alt='logo' className="h-8" />
+                    <Link to="/">
+                        <img src='/logo.png' alt='logo' className="h-8" />
+                    </Link>
                 </div>
                 <div className="hidden md:flex space-x-4">
                     <Link to='/' className="hover:underline">Home</Link>
