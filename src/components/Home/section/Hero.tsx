@@ -34,7 +34,7 @@ const Hero: React.FC = () => {
                 <div className="mt-12">
                     <Button className={`inline-block text-white bg-indigo-600 hover:bg-indigo-700 py-2 px-6 rounded-full shadow-md transition-transform transform hover:scale-105 ${styles.hireme}`}>
                         <a
-                            href="https://drive.google.com/file/d/1ncHAYDlTQml8H1MAI3TgA4zkAtG14P3G/view?usp=sharing"
+                            href="https://drive.google.com/file/d/1uArNk47sWuItl7Vf6pEPVdk9aeNu6jXb/view?usp=sharing"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
