@@ -11,7 +11,7 @@ const Hero: React.FC = () => {
                         <h1 className="text-5xl font-bold text-white">
                             Hi, I'm <span className={styles.h1tage}>Diganta Halder</span>
                         </h1>
-                        <p className={`mt-4 text-lg text-gray-200 ${styles.h1tage}`}>A passionate Software Developer</p>
+                        <p className={`mt-4 text-lg text-gray-200 ${styles.h1tage}`}>A passionate MERN Stack Developer</p>
                     </div>
                     <div className="md:w-1/2 mt-6 md:mt-0">
                         <img src='/person.png' alt='Diganta Halder' className="mx-auto md:mx-0 w-64 h-64 md:w-80 md:h-80 object-cover rounded-full shadow-lg" />
