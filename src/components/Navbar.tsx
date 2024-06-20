@@ -9,6 +9,13 @@ const Navbar: React.FC = () => {
         setIsOpen(!isOpen);
     };
 
+    // Define menu items as an array of objects
+    const menuItems = [
+        { text: 'Home', to: '/' },
+        { text: 'About', to: '/about' },
+        { text: 'Projects', to: '/projects' }
+    ];
+
     return (
         <nav className={`text-white p-4 ${styles.navbar}`}>
             <div className="container mx-auto flex justify-between items-center">
@@ -17,11 +24,14 @@ const Navbar: React.FC = () => {
                         <img src='/logo.png' alt='logo' className="h-8" />
                     </Link>
                 </div>
+                {/* Desktop navigation */}
                 <div className="hidden md:flex space-x-4">
-                    <Link to='/' className="hover:underline">Home</Link>
-                    <Link to="/about" className="hover:underline">About</Link>
-                    <Link to="/projects" className="hover:underline">Projects</Link>
+                    {/* Map through menuItems array */}
+                    {menuItems.map((item, index) => (
+                        <Link key={index} to={item.to} className="hover:underline">{item.text}</Link>
+                    ))}
                 </div>
+                {/* Mobile navigation toggle */}
                 <div className="md:hidden">
                     <button onClick={toggleMenu} className="focus:outline-none">
                         <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -30,11 +40,13 @@ const Navbar: React.FC = () => {
                     </button>
                 </div>
             </div>
+            {/* Mobile menu dropdown */}
             {isOpen && (
                 <div className="md:hidden mt-2 space-y-2">
-                    <Link to='/' className="block hover:underline">Home</Link>
-                    <Link to="/about" className="block hover:underline">About</Link>
-                    <Link to="/projects" className="block hover:underline">Projects</Link>
+                    {/* Map through menuItems array for mobile */}
+                    {menuItems.map((item, index) => (
+                        <Link key={index} to={item.to} className="block hover:underline">{item.text}</Link>
+                    ))}
                 </div>
             )}
         </nav>
