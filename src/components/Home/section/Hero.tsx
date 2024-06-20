@@ -20,7 +20,7 @@ const Hero: React.FC = () => {
                 <div className='flex flex-col md:flex-row items-center justify-between mt-12 space-y-8 md:space-y-0'>
                     <div className="md:w-3/5 xl:text-left md:text-center">
                         <h2 className={`text-4xl font-semibold  ${styles.h1tage}`}>Profile Summary</h2>
-                        <ul className="mt-4 text-lg text-gray-200 list-disc list-inside">
+                        <ul className="mt-4 text-lg text-gray-200 list-disc list-inside text-justify">
                             <li>Dynamic and results-driven Software Developer Engineer with hands-on experience in developing scalable web applications using React.js, Node.js, and related technologies.</li>
                             <li>Proven track record of optimizing performance, enhancing user experience, and delivering high-quality software solutions.</li>
                             <li>Seeking to leverage expertise in a challenging SDE role within a growth-oriented organization.</li>

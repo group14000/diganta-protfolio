@@ -1,5 +1,4 @@
 import React from 'react';
-// import styles from './Myprojects.module.css';
 import styles from './Myprojects.module.css';
 
 const projects = [
@@ -30,7 +29,7 @@ const MyProjects: React.FC = () => {
                         <div key={project.title} className="bg-gray-800 border border-purple-500 rounded-lg p-6 flex flex-col items-center">
                             <img src={project.image} alt={project.title} className="mb-4 w-full h-48 object-cover rounded-lg" />
                             <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
-                            <p className={`mb-4 ${styles['justify-text']}`}>{project.description}</p>
+                            <p className="mb-4 text-justify">{project.description}</p>
                             <a href={project.link} target="_blank" rel="noopener noreferrer" className="mt-auto bg-purple-500 text-white py-2 px-4 rounded-lg hover:bg-purple-600 transition">
                                 <i className="fab fa-github mr-2"></i>View
                             </a>
