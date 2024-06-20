@@ -35,7 +35,7 @@ const About: React.FC = () => {
     return (
         <section className={`py-12 text-white ${styles.about}`}>
             <div className='flex flex-col lg:flex-row items-center justify-between '>
-                <div className="max-w-3xl mx-auto px-6 lg:px-8 text-left lg:w-1/2">
+                <div className="max-w-3xl mx-auto px-6 lg:px-8  lg:w-1/2 text-justify">
                     <h2 className="text-5xl font-bold mb-6">
                         Know Who <span className="text-purple-500">I'M</span>
                     </h2>
