@@ -14,6 +14,12 @@ const projects = [
         image: '/Bestway-mobile.png',
         link: 'https://wmplayer-staging.iegaming.io/'
     },
+    {
+        title: 'GeniusForge',
+        description: `Welcome to our AI-powered content generator platform, where creativity meets efficiency. With our advanced artificial intelligence technology, you can effortlessly generate high-quality and engaging content for your various needs. Whether you are a blogger, marketer, or business owner looking to boost your online presence, our innovative tool provides endless possibilities. Say goodbye to writer's block and hello to limitless content creation potential. Try our AI content generator today and revolutionize the way you create content.`,
+        image: '/genius-forge.png',
+        link: 'https://genius-forge.vercel.app/'
+    },
 ];
 
 const MyProjects: React.FC = () => {
