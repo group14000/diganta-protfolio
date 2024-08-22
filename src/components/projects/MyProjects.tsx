@@ -6,13 +6,7 @@ const projects = [
         title: 'Bestway-Desktop',
         description: `BW9 is dedicated to providing a high-quality online gaming platform that puts player satisfaction and safety first. We prioritize secure transactions, fair gameplay, and attentive support. Our wide range of gaming options includes live casino, slots, table games, and sports betting. BW9 is a registered trademark owned by Wyn Ventures Inc. and licensed by PAGCOR. We are committed to responsible gaming and do not allow individuals under 21 to access our platform. We also adhere to Anti-Money Laundering regulations. Established in 2022, BW9 is focused on building a community that offers a fun, secure, and safe gaming experience for all players. Please note that our platform is only compatible with tablets, laptops, and desktops; for mobile-friendly gaming, please visit Bestway-Mobile.`,
         image: '/Bestway.png',
-        link: 'https://wmdesktop-staging.iegaming.io/'
-    },
-    {
-        title: 'Bestway-Mobile',
-        description: `BW9 is dedicated to providing a high-quality online gaming platform that puts player satisfaction and safety first. We prioritize secure transactions, fair gameplay, and attentive support. Our wide range of gaming options includes live casino, slots, table games, and sports betting. BW9 is a registered trademark owned by Wyn Ventures Inc. and licensed by PAGCOR. We are committed to responsible gaming and do not allow individuals under 21 to access our platform. We also adhere to Anti-Money Laundering regulations. Established in 2022, BW9 is focused on building a community that offers a fun, secure, and safe gaming experience for all players.`,
-        image: '/Bestway-mobile.png',
-        link: 'https://wmplayer-staging.iegaming.io/'
+        link: 'https://bw9.io/ph/d/popular'
     },
     {
         title: 'GeniusForge',
