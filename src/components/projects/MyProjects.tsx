@@ -9,10 +9,24 @@ const projects = [
         link: 'https://bw9.io/ph/d/popular'
     },
     {
-        title: 'GeniusForge',
-        description: `Welcome to our AI-powered content generator platform, where creativity meets efficiency. With our advanced artificial intelligence technology, you can effortlessly generate high-quality and engaging content for your various needs. Whether you are a blogger, marketer, or business owner looking to boost your online presence, our innovative tool provides endless possibilities. Say goodbye to writer's block and hello to limitless content creation potential. Try our AI content generator today and revolutionize the way you create content.`,
-        image: '/genius-forge.png',
-        link: 'https://genius-forge.vercel.app/'
+        title: 'Sydney Financial',
+        description: `Sydney Financials: Navigating Loan Structures & Downsizer Contributions
+
+This document captures conversations from Sydney Financials, focusing on loan structures and government co-contributions. It provides key insights into eligibility criteria for downsizer contributions, including age requirements and the benefits for estate planning. A valuable guide for anyone looking to navigate property transactions and retirement planning, this resource addresses the complexities of financial assistance and investment strategies.
+
+### Key Highlights:
+- Detailed user interactions around financial assistance and loan structures.
+- Insights on eligibility and benefits of downsizer contributions for property owners.
+- Focus on the 2024 minimum age requirement for downsizer contributions.
+- Clarification on qualifying property types for downsizer contributions.
+- Overview of government co-contribution initiatives to enhance financial planning.
+- Common user inquiries about retirement strategies and property investments.
+
+This document serves as a useful guide for understanding the financial aspects of property ownership, loan structures, and retirement planning strategies.
+
+`,
+        image: '/sydney.png',
+        link: 'https://sydneyfin1.aviaralabs.com/'
     },
 ];
 
